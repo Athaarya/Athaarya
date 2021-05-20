@@ -3,14 +3,14 @@ const url_string = document.URL;
 const url = new URL(url_string);
 let doi;
 
-if (url.searchParams.get('in') != null) {
-  doi = url.searchParams.get('in');
+if (url.searchParams.get('by') != null) {
+  doi = url.searchParams.get('by');
 } else {
   doi = "Arya";
 }
 
 let footer = document.getElementById("credit");
-footer.innerHTML = doi;
+footer.innerHTML = doi; "Arya"
 footer.href = "https://www.instagram.com/atha_arya06/";
 
 function time() {

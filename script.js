@@ -6,11 +6,13 @@ let doi;
 if (url.searchParams.get('by') != null) {
   doi = url.searchParams.get('by');
 } else {
-  doi = "Arya";
+  doi = "Kamu";
+} else {
+  sender = "Arya";
 }
 
 let footer = document.getElementById("credit");
-footer.innerHTML = doi; "Arya"
+footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/atha_arya06/";
 
 function time() {

@@ -7,7 +7,6 @@ if (url.searchParams.get('by') != null) {
   doi = url.searchParams.get('by');
 } else {
   doi = "Kamu";
-} else {
   sender = "Arya";
 }
 

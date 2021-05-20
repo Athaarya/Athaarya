@@ -61,7 +61,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Hai byy!',
     html: `Selamat ${time()}, Kamu udah ${makan()}?`,
-    timer: 2500,
+    timer: 3500,
     timerProgressBar: true,
     showConfirmButton: false,
   }).then((result) => {
@@ -70,7 +70,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
         Swal.fire({
           title: ' ',
           html: `Aku tau ko kamu lagi sibuk banget`,
-          timer: 2000,
+          timer: 3500,
           timerProgressBar: true,
           showConfirmButton: false,
         }).then((result) => {
@@ -78,7 +78,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
             Swal.fire({
               title: ' ',
               html: `Lagi pusing banget, cape banget`,
-              timer: 2000,
+              timer: 3500,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {

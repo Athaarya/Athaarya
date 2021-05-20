@@ -7,11 +7,10 @@ if (url.searchParams.get('by') != null) {
   doi = url.searchParams.get('by');
 } else {
   doi = "Kamu";
-  sender = "Arya";
 }
 
 let footer = document.getElementById("credit");
-footer.innerHTML = sender;
+footer.innerHTML = doi;
 footer.href = "https://www.instagram.com/atha_arya06/";
 
 function time() {

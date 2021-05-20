@@ -66,7 +66,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
     showConfirmButton: false,
   }).then((result) => {
     if (result.dismiss === Swal.DismissReason.timer) {
-      Swal.fire('Kalau belum jangan lupa makan yaa').then((result) => {
+      Swal.fire('Kalo belum jangan lupa makan ya').then((result) => {
         Swal.fire({
           title: ' ',
           html: `Aku tau ko kamu lagi sibuk banget`,
@@ -107,23 +107,23 @@ document.querySelector(".tombol").addEventListener('click', function () {
                             Swal.fire({
                               title: 'Mau apa?',
                               input: 'text',
-                              inputPlaceholder: 'ex: Seblacc, boba, or etc',
+                              inputPlaceholder: 'ex: Seblak, boba, or etc',
                               showCancelButton: false,
                               inputValidator: (value) => {
                                 if (!value) {
-                                  return 'Isi dulu dong by'
+                                  return 'Isi dulu lah by'
                                 }
                               }
                             }).then((result) => {
                               Swal.fire('Okey by', 'Nanti aku kabulin kemauan kamu yaa', 'success').then((result) => {
-                                Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                                Swal.fire("See you by! Aku kangen kamu").then((result) => {
                                   selesai()
                                 });
                               })
                             })
                           } else if (result.isDenied) {
-                            Swal.fire('Oh okedeh kalo ga ada').then((result) => {
-                              Swal.fire("See ya! Aku kangen ^^").then((result) => {
+                            Swal.fire('Oh oke deh kalo ga ada').then((result) => {
+                              Swal.fire("See you by! Aku kangen kamu").then((result) => {
                                 selesai()
                               });
                             })

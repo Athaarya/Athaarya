@@ -6,7 +6,7 @@ let doi;
 if (url.searchParams.get('by') != null) {
   doi = url.searchParams.get('by');
 } else {
-  doi = "Kamu";
+  doi = "Arya";
 }
 
 let footer = document.getElementById("credit");

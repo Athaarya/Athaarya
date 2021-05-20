@@ -17,7 +17,7 @@ function time() {
   var d = new Date();
   var n = d.getHours();
   console.log(n);
-  if (n >= 1 && n <= 10) {
+  if (n >= 5 && n <= 10) {
     return "Pagi"
   } else if (n >= 10 && n <= 15) {
     return "Siang"
@@ -25,7 +25,7 @@ function time() {
     return "Sore"
   } else if (n >= 18 && n <= 24) {
     return "Malam"
-  } else if (n >= 24 && n <= 5) {
+  } else if (n >= 0 && n <= 5) {
     return "Dini Hari"
   }
 }

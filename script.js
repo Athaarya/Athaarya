@@ -23,7 +23,7 @@ function time() {
     return "Siang"
   } else if (n >= 15 && n <= 18) {
     return "Sore"
-  } else if (n >= 18 && n <= 24) {
+  } else if (n >= 18 && n <= 5) {
     return "Malam"
   }
 }

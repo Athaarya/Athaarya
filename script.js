@@ -17,7 +17,7 @@ function time() {
   var d = new Date();
   var n = d.getHours();
   console.log(n);
-  if (n >= 5 && n <= 10) {
+  if (n >= 1 && n <= 10) {
     return "Pagi"
   } else if (n >= 10 && n <= 15) {
     return "Siang"
@@ -112,7 +112,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                             Swal.fire({
                               title: 'Mau apa?',
                               input: 'text',
-                              inputPlaceholder: 'ex: Seblak, boba, or etc',
+                              inputPlaceholder: 'Seblak, boba, atau lainnya ',
                               showCancelButton: false,
                               inputValidator: (value) => {
                                 if (!value) {

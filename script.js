@@ -11,7 +11,7 @@ if (url.searchParams.get('in') != null) {
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
-footer.href = "https://www.instagram.com/adamukti/";
+footer.href = "https://www.instagram.com/atha_arya06/";
 
 function time() {
   var d = new Date();

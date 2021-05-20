@@ -23,8 +23,10 @@ function time() {
     return "Siang"
   } else if (n >= 15 && n <= 18) {
     return "Sore"
-  } else if (n >= 18 && n <= 5) {
+  } else if (n >= 18 && n <= 24) {
     return "Malam"
+  } else if (n >= 24 && n <= 5) {
+    return "Dini Hari"
   }
 }
 
@@ -41,6 +43,9 @@ function makan() {
       break;
       case "Sore":
       return "makan"
+      break;
+    case "Dini Hari":
+      return "Makan"
       break;
     default:
       break;
